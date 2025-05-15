@@ -1,6 +1,4 @@
-## `DOCUMENTATION.md`
 
-```markdown
 # Plot Viewer - Technical Documentation
 
 ## Overview
