@@ -20,7 +20,14 @@ const FileUpload = ({ onDataParsed }) => {
   });
 
   return (
-    <div {...getRootProps()} style={{ border: '2px dashed #444', padding: '20px', marginBottom: '20px' }}>
+    <div
+      {...getRootProps()}
+      style={{
+        border: '2px dashed #444',
+        padding: '20px',
+        marginBottom: '20px',
+      }}
+    >
       <input {...getInputProps()} />
       <p>📁 Drag & drop a CSV file here, or click to select</p>
     </div>
