@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>📊 Plot Viewer</h1>
+      <h1>Plot Viewer</h1>
       <FileUpload onDataParsed={setPlotData} />
       {plotData && (
         <>
